@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <h1>Currency Converter</h1>
+    <p>Convert any currency in Naira</p>
+    <div>
+        <input id="num_put" type="number" placeholder="Enter amount to convert">
+        <button onclick="convert()">Convert</button>
+        <h4 id="usd">Current USD rate: 1570</h4>
+        <h4 id="pounds">Current pounds rate: 1800</h4>
+        <h4 id="cedis">Current cedis rate: 1000</h4>
+        <section></section>
+    </div>
+
+<script>
+     // DOM: DOCUMENT OBJECT MANIPULATION/MODELLING
+    // CRUD: CREATE READ UPDATE DELETE 
+    function pickcurrency(){
+        let usd = 1570
+        let pounds = 1800
+        let cedis = 1000
+    }
+    
+    function convert(){
+        const input=document.getElementById("num_put").value
+        const rate=document.getElementsByTagName(section).value
+        let amount= input * rate
+        document.getElementById("display").innerHTML=`<p> $${input} in Naira is: <b>#${amount}</b></p>`
+    }
+</script>
+</body>
+</html>

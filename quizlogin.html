@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <style>
+        *{
+            text-align: center;
+            justify-content: center;
+            padding: 20px;
+            margin: 20px;
+            background-color: rgb(159, 175, 247);
+        }
+        button{
+            border-radius: 10px;
+            background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
+            color: white;
+        }
+        p{
+            margin-bottom: none;
+        }
+        input{
+            border-radius: 20px;
+            width: 300px;
+            height: 20px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h3>Hello Dear</h3>
+    <strong>Welcome to Vee's quiz app</strong>
+    <p>Please enter your details</p>
+    
+        <label for="name">
+            <input id="name1" type="text" name="Username" placeholder="Input Username"/><br>
+        </label>
+        <label for="name">
+            <input id="name2" type="text" name="Password" placeholder="Input Password"/><br>
+        </label>
+    
+        <button onclick="login()">Start Quiz</button>
+    
+    
+  <script>
+
+    function login(){
+
+        const Username= document.getElementById("name1").value
+        const Password= document.getElementById("name2").value
+
+        User_name = "vivian-baby";
+        pass_word = "12345";
+
+        if(Username === User_name && Password === pass_word){
+            alert(`Welcome ${User_name}`);
+            window.location.href="quiz.html";
+        }else{
+            alert("Incorrect password or username, try again");
+        }
+    }
+     console.log(User_name)
+  </script>  
+</body>
+</html>
