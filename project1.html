@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Baker Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: 'Roboto';
+      line-height: 2;
+      background-color: #fff8f0;
+      color: #333;
+      padding: 20px;
+    }
+    
+    header {
+      background-color: #ffb6b9;
+      padding: 20px;
+      text-align: center;
+      border-radius: 10px;
+    }
+    
+    header h1 {
+      color: #100101;
+    }
+    
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+    }
+    
+    nav a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      padding: 8px 12px;
+      border-radius: 5px;
+      transition: background 0.3s ease;
+    }
+    
+    nav a:hover {
+      background-color: #ffa1a4;
+    }
+    
+    main {
+      margin-top: 30px;
+    }
+    
+    #Work, #Home, #About, #Contact, #Resume {
+      margin-bottom: 30px;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    
+    ul {
+      list-style-type: square;
+    }
+    
+    a {
+      color: #d36f6f;
+    }
+    
+    a:hover {
+      color: #b03e3e;
+    }
+    
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    
+    form button {
+      background-color: #ffb6b9;
+      color: black;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    form button:hover {
+      background-color: #ff9a9e;
+    }
+    
+    footer {
+      margin-top: 50px;
+      text-align: center;
+      font-size: 0.9em;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <section id="nav"></section>
+    <h1>Welcome to Vee's Pastries Portfolio</h1>
+    <nav>
+      <a href="#Home">Home</a> 
+      <a href="#About">About</a> 
+      <a href="#Work">Work</a> 
+      <a href="#Resume">Resume</a> 
+      <a href="#Contact">Contact</a>
+    </nav>
+  </header><br><br><hr>
+  <main>
+    <section class="section">
+      <!--this is my comment-->
+    <p><section id="Home">
+      <h2>Home</h2>
+      <p>Delicious, handcrafted treats mades with love and fresh ingredients<br>
+        Explore my work, learn about my journey, and place your order today!</P>
+        <a href="#Work"> View my work</a><br><br>
+        <a href="#nav">Back to top</a>
+    </section></p><br><br><br><hr>
+
+   <p> <section id="About">
+    <h2>About Me</h2>
+    <p>Hi! I'm Vivian, a passionate baker who turns fresh ingredients into delightful treats, with 4 years of experience in baking cakes, pastries,doughnuts and breads for all occasions.
+      <br>Baking is not just my job-it's my art and my joy.
+      </p><a href="#nav">Back to top</a><br><br><br>
+  </section>
+  </p><hr>
+    <p><section id="Work">
+      <h2>My Work</h2>
+      <p><strong>Here are some of my best creations:</strong><ul>
+        <li>birthday cakes, custom cakes and wedding cakes.</li>
+        <li>Doughnuts- Glazed, strawberry jerry, chocolate sprinkled</li>
+        <li>Breads of all kinds</li>
+    </ul> </p><a href="#nav">Back to top</a>
+    </section></p><br><br><br><hr>
+
+    <p><section id="Resume">
+        <h2>Resume</h2>
+        <h3>Vivian-Vee's Pastries</h3>
+        <p><strong>Professional Baker</strong></p>
+      
+        <h4>Skills</h4>
+        <ul>
+          <li>Cake design and decoration</li>
+          <li>Bread and pastry baking</li>
+          <li>Food safety and hygiene</li>
+          <li>Customer service</li>
+        </ul>
+      
+        <h4>Experience</h4>
+        <p><strong>Vee's Pastries — Head Baker</strong><br>
+        2021-Present</p>
+        <ul>
+          <li>Designed and baked custom cakes for weddings and birthdays</li>
+          <li>Managed kitchen operations and trained junior staff</li>
+        </ul>
+      
+        <h4>Education</h4>
+        <p><strong>BSc in Food Science and Technology</strong><br>
+        Unizik- 2021</p>
+        <p><strong>Baking & Pastry Training</strong><br>
+        Culinary Academy, Anambra — 2022</p>
+    </section></p><a href="#nav">Back to top</a><hr>
+
+    <p><section id="Contact">
+        <a href="https://wa.me/07042896171">Contact me for your orders</a>
+      <h2>Contact Me</h2>
+      <form action="/submit-form" method="POST">
+        <label>Name:</label><br />
+        <input type="text" name="name" required><br /><br />
+        <label>Your orders:</label><br />
+        <input type="text" name="your order" required><br /><br />
+        <label>Message:</label><br />
+        <textarea name="message" required></textarea><br /><br />
+        <button type="submit">Send</button>
+      </form>
+    </section></p><hr><br>
+    </section>
+    
+    
+    <a href="#nav">Back to top</a>
+  </main>
+  <footer>
+    <p>&copy; Vee's Pastries-"<a href="https://wa.me/07042896171">Whatsapp</a>"</p>
+    <br><a href="#privacy">Privacy policy</a> | <a href="#terms">Terms of service</a>
+  </footer>
+
+</body>
+</html>
+
+
