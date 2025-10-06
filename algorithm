@@ -1,0 +1,38 @@
+// ALGORITHM AnalyzeSentence
+    // Initialize counters (three variables as specified)
+    // characterCount ← 0
+    // wordCount ← 0
+    // vowelCount ← 0
+    
+    // Helper flag (doesn't count as a counter variable)
+    // isInWord ← FALSE
+    
+    // Main processing loop
+    // REPEAT
+    //     READ currentCharacter
+        
+        // Always increment character count (including the final point)
+        // characterCount ← characterCount + 1
+        
+        // Check for vowels (case-insensitive)
+        // IF currentCharacter IN {'a','e','i','o','u','A','E','I','O','U'} THEN
+        //     vowelCount ← vowelCount + 1
+        // END IF
+        
+        // // Word detection logic
+        // IF currentCharacter < > ' ' AND currentCharacter ≠ '.' THEN
+        //     IF NOT isInWord THEN
+        //         wordCount ← wordCount + 1
+        //         isInWord ← TRUE
+        //     END IF
+        // ELSE
+    //         isInWord ← FALSE
+    //     END IF
+        
+    // UNTIL currentCharacter = '.'  // Stop when reaching the point
+    
+    // Output results
+//     OUTPUT "Total characters: ", characterCount
+//     OUTPUT "Word count: ", wordCount
+//     OUTPUT "Vowel count: ", vowelCount
+// END ALGORITHM
