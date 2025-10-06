@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            background: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            padding: 50px;
+        }
+        .quiz-container{
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            width: 100%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        button{
+            margin-top: 15px;
+            padding: 10px;
+            width: 50%;
+            cursor: pointer;
+        }
+        .answer{
+            margin: 5px  0;
+        }
+    </style>
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>QUIZ APP</h1>
+        <div id="question-container">
+            <p id="question"> loading...</p>
+            <div id="anwsers"></div>
+        </div>
+        <button id="next-btn">Next</button>
+        <p id="score"></p>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
